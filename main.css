@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-flow:column wrap;
+}
+
+
+header{
+    display:flex;
+    flex-flow:row no-wrap ;
+    justify-content: flex-start;
+    width:100%;
+    background-color:#F5F5F5;
+    ;
+    position:fixed;
+    border-bottom:1px solid grey
+}
+
+.right{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width:75%;
+
+}
+.right>div{
+    
+    font-size: 12px;
+    
+    padding-top:9px;
+
+    
+    color:rgb(28, 17, 194);
+    width:20%;
+    text-align:center
+}
+
+.left{
+    padding:0px 20px;
+    font-size: large;
+    width:25%;
+    text-align: center;
+    
+    
+    
+}
+
+h3{
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+.right>div:hover{
+    background-color: #FFFEE0;
+}
+
+.left:hover,.right>div:hover{
+    color:#1866C8;
+    cursor: pointer;
+}
+
+.img{
+    background-image: url('images/adventure.jpg');
+    min-height: 550px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main{
+    width:100%;
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding-bottom: 20px;
+}
+
+.main>h1{
+    font-size: 35px;
+    font-weight:lighter
+}
+
+
+button{
+    width:200px;
+    height: 50px;
+    color:white;
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+button:hover{
+background-color: #0EBFE9;
+}
+
+.gallery{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+
+}
+
+img{
+    margin:5px 
+}
+
+.text{
+    width:100%;
+    display: flex;
+    flex-flow:row wrap;
+
+
+
+}
+
+.text>div{
+    width:50%;
+    box-sizing: border-box;
+    padding:10px;
+    
+}
+
+footer{
+    background-color:#333333 ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px;
+    
+  
+}
