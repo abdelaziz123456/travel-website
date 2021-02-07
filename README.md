@@ -1,3 +1,3 @@
 # travel-website
 
-dutation 2 hours
+duration 2 hours
